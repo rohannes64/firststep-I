@@ -43,7 +43,7 @@ int main(void) {
                 }
         }
         int choice = 0;
-        printf("Hello, and Welcome to my tic-tac-toe game!\nBefore you start the game there are 3 rules.\n1.The format for each input is ROW COLUMN\t(thats your row number (1-3) space separated with column number (1-3)\n2.Overlapping of inputs is possible in this version so adhere to the OG tic-tac-toe rules\t(DO NOT OVERLAP)\n3.Have fun or something, i guess.\n");
+        printf("Hello, and Welcome to my tic-tac-toe game!\n\nBefore you start the game there are 3 rules.\n\n1.The format for each input is ROW COLUMN\t(thats your row number (1-3) space separated with column number (1-3)\n\n2.Overlapping of inputs is possible in this version so adhere to the OG tic-tac-toe rules\t(DO NOT OVERLAP)\n\n3.Have fun or something, i guess.\n\n");
         printf("Press 1 to Start: ");
         scanf("%d", &choice);
         display(board);
