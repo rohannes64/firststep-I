@@ -60,6 +60,7 @@ int main(void) {
                      }
                      if (checkfordraw(board)) {
                         printf("It's a DRAW");
+                        choice = 0;
                                  break;
         }
                      printf("Player 2, Enter your choice: ");
@@ -73,11 +74,13 @@ int main(void) {
                      }
                      if (checkfordraw(board)) {
                              printf("It's a DRAW");
+                             choice = 0;
                                 break;
         }
         }
         if (choice == 0) {
-                printf("See you Next Time!");
+                printf("See you Next Time!\n");
+                system("pause");
                 return 0;
         }
 }
